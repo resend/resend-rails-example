@@ -63,4 +63,5 @@ You can now send emails with:
 
 ```ruby
 mailer.deliver_now!
+# => {:id=>"a193c81e-9ac5-4708-a569-5caf14220539", :from=>....}
 ```
