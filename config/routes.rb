@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
+  get 'email', to: 'user#send_hello_email'
   get 'healthz', to: 'user#healthz'
 end
