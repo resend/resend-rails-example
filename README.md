@@ -9,6 +9,12 @@ Add the gem to your Gemfile:
 gem "resend"
 ```
 
+Create a `/config/initializers/mailer.rb` file and add the following configuration line.
+
+```
+Resend.api_key = ENV['RESEND_API_KEY']
+```
+
 Create your mailer class
 
 ```ruby
