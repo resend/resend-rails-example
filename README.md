@@ -6,7 +6,7 @@ Add the gem to your Gemfile:
 
 ```ruby
 # Gemfile
-gem "resend", "0.2.0"
+gem "resend"
 ```
 
 Create your mailer class

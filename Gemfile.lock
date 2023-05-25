@@ -154,7 +154,7 @@ GEM
     rake (13.0.6)
     reline (0.3.3)
       io-console (~> 0.5)
-    resend (0.3.0)
+    resend (0.5.0)
       httparty (~> 0.19.1)
     sqlite3 (1.6.2-x86_64-darwin)
     thor (1.2.1)
@@ -175,7 +175,7 @@ DEPENDENCIES
   pry
   puma (~> 5.0)
   rails (~> 7.0.4)
-  resend (= 0.3.0)
+  resend
   sqlite3 (~> 1.4)
   tzinfo-data
 
