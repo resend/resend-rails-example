@@ -55,7 +55,7 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :resend
   config.action_mailer.resend_settings = {
-    api_key: 'your_api_key',
+    api_key: ENV["RESEND_API_KEY"],
   }
 
   # Raises error for missing translations.

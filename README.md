@@ -6,7 +6,7 @@ Add the gem to your Gemfile:
 
 ```ruby
 # Gemfile
-gem "resend", "0.2.0"
+gem "resend"
 ```
 
 Create your mailer class
@@ -17,8 +17,15 @@ class UserMailer < ApplicationMailer
   default from: 'you@domain.io' # this domain must be verified with Resend
   def welcome_email
     @user = params[:user]
-    @url  = 'http://example.com/login'
-    mail(to: ["email@example.com", "email2@example.com"], subject: 'Hello World')
+    attachments["invoice.pdf"] = File.read(Rails.root.join("resources","invoice.pdf"))
+    @url  = "http://example.com/login"
+    mail(
+      to: ["to@email.com"],
+      cc: ["cc@email.com"],
+      bcc: ["cc@email.com"],
+      reply_to: "to@email.com",
+      subject: "Hello from Rails",
+    )
   end
 end
 ```

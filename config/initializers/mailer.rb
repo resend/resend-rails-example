@@ -1,3 +1,1 @@
-Resend.configure do |config|
-  config.api_key = 're_api_key'
-end
+Resend.api_key = ENV['RESEND_API_KEY']
