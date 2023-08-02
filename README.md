@@ -15,6 +15,13 @@ Create a `/config/initializers/mailer.rb` file and add the following configurati
 Resend.api_key = ENV['RESEND_API_KEY']
 ```
 
+Add these lines of code into your environment config file.
+
+```rb
+# Setup resend as the email method
+config.action_mailer.delivery_method = :resend
+```
+
 Create your mailer class
 
 ```ruby
