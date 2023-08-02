@@ -22,6 +22,8 @@ Add these lines of code into your environment config file.
 config.action_mailer.delivery_method = :resend
 ```
 
+Checkout the [Rails example app with SMTP setup](https://github.com/resendlabs/resend-rails-smtp-example) for SMTP support example.
+
 Create your mailer class
 
 ```ruby
