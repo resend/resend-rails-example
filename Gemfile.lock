@@ -136,7 +136,7 @@ GEM
       method_source (~> 1.0)
     psych (5.1.2)
       stringio
-    puma (5.6.8)
+    puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (2.2.8)
@@ -205,7 +205,7 @@ DEPENDENCIES
   bootsnap
   debug
   pry
-  puma (~> 5.6)
+  puma (~> 6.0)
   rails (~> 7.1.0)
   resend
   sqlite3 (~> 1.4)
