@@ -3,8 +3,11 @@ class UserController < ApplicationController
   def send_hello_email
     @user = User.new(name: "derich")
 
-    r = UserMailer.with(user: @user).welcome_email.deliver!
-    render json: {status: 'ok'}
+    resp = UserMailer.with(user: @user).welcome_email.deliver!
+
+    render json: {
+      email_id: resp[:id]
+    }
   end
 
   def healthz
