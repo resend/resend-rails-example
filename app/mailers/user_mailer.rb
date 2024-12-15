@@ -10,6 +10,12 @@ class UserMailer < ApplicationMailer
       to: ["delivered@resend.dev"],
       reply_to: "delivered@resend.dev",
       subject: "Hello from Rails",
+      tags: {
+        "name": "category", "value": "confirm_email"
+      },
+      headers: {
+        "X-Entity-Ref-ID": "123"
+      },
     )
   end
 end
