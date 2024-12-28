@@ -73,7 +73,7 @@ GEM
     coderay (1.1.3)
     concurrent-ruby (1.3.4)
     crass (1.0.6)
-    csv (3.3.1)
+    csv (3.3.2)
     date (3.3.4)
     debug (1.9.1)
       irb (~> 1.10)
@@ -166,7 +166,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.2)
       io-console (~> 0.5)
-    resend (0.15.0)
+    resend (0.16.0)
       httparty (>= 0.21.0)
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86_64-darwin)
@@ -192,7 +192,7 @@ DEPENDENCIES
   pry
   puma (~> 5.6)
   rails (~> 7.0.0)
-  resend (= 0.15.0)
+  resend (= 0.16.0)
   sqlite3 (~> 1.4)
   tzinfo-data
 
