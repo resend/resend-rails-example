@@ -55,7 +55,7 @@ Rails.application.configure do
 
   # Setup resend as the email method
   config.action_mailer.delivery_method = :resend
-
+  config.action_mailer.raise_delivery_errors = true
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 
