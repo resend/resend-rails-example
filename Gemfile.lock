@@ -66,7 +66,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    bigdecimal (3.1.8)
+    bigdecimal (3.1.9)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
     builder (3.3.0)
@@ -166,7 +166,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.2)
       io-console (~> 0.5)
-    resend (0.16.0)
+    resend (0.18.1)
       httparty (>= 0.21.0)
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86_64-darwin)
@@ -192,7 +192,7 @@ DEPENDENCIES
   pry
   puma (~> 5.6)
   rails (~> 7.0.0)
-  resend (= 0.16.0)
+  resend (= 0.18.1)
   sqlite3 (~> 1.4)
   tzinfo-data
 
