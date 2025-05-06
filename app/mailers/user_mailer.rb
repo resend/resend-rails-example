@@ -14,8 +14,11 @@ class UserMailer < ApplicationMailer
         "name": "category", "value": "confirm_email"
       },
       headers: {
-        "X-Entity-Ref-ID": "123"
+        "X-Entity-Ref-ID": "123",
       },
+      options: {
+        idempotency_key: "99a",
+      }
     )
   end
 end
