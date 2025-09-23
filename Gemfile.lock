@@ -140,7 +140,7 @@ GEM
     psych (5.2.6)
       date
       stringio
-    puma (5.6.9)
+    puma (7.0.4)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.10)
@@ -204,7 +204,7 @@ DEPENDENCIES
   debug
   pry
   pry-byebug
-  puma (~> 5.6)
+  puma (~> 7.0)
   rails (~> 7.0.0)
   resend (= 0.24.0)
   sqlite3 (~> 1.4)
