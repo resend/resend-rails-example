@@ -182,7 +182,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.6.3)
       io-console (~> 0.5)
-    resend (1.0.0)
+    resend (1.0.1)
       httparty (>= 0.21.0)
     sqlite3 (1.7.3)
       mini_portile2 (~> 2.8.0)
@@ -208,7 +208,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 7.0)
   rails (~> 7.0.0)
-  resend (= 1.0.0)
+  resend (= 1.0.1)
   sqlite3 (~> 1.4)
   tzinfo-data
 
