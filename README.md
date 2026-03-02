@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the Rails examples here](https://github.com/resend/resend-examples/tree/main/ruby-resend-examples/rails_app)**
+
+---
+
+
 This is an example rails app on how to configure and use the [Resend Rails SDK](https://github.com/drish/resend-ruby) with Rails Action Mailer
 
 # Setup
