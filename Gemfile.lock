@@ -86,7 +86,7 @@ GEM
     erubi (1.13.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    httparty (0.23.2)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -111,8 +111,8 @@ GEM
     mini_portile2 (2.8.8)
     minitest (5.26.2)
     msgpack (1.8.0)
-    multi_xml (0.7.2)
-      bigdecimal (~> 3.1)
+    multi_xml (0.8.1)
+      bigdecimal (>= 3.1, < 5)
     net-imap (0.4.20)
       date
       net-protocol
@@ -182,7 +182,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.6.3)
       io-console (~> 0.5)
-    resend (1.0.1)
+    resend (1.1.0)
       httparty (>= 0.21.0)
     sqlite3 (1.7.3)
       mini_portile2 (~> 2.8.0)
@@ -208,7 +208,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 7.0)
   rails (~> 7.0.0)
-  resend (= 1.0.1)
+  resend (= 1.1.0)
   sqlite3 (~> 1.4)
   tzinfo-data
 
