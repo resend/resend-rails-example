@@ -66,6 +66,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    base64 (0.3.0)
     bigdecimal (3.3.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
@@ -182,8 +183,9 @@ GEM
       psych (>= 4.0.0)
     reline (0.6.3)
       io-console (~> 0.5)
-    resend (1.1.0)
-      httparty (>= 0.21.0)
+    resend (1.2.0)
+      base64
+      httparty (>= 0.22.0)
     sqlite3 (1.7.3)
       mini_portile2 (~> 2.8.0)
     stringio (3.1.9)
@@ -208,7 +210,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 8.0)
   rails (~> 7.0.0)
-  resend (= 1.1.0)
+  resend (= 1.2.0)
   sqlite3 (~> 1.4)
   tzinfo-data
 
