@@ -82,8 +82,8 @@ GEM
     debug (1.11.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
-    erb (2.2.3)
-      cgi
+    erb (4.0.3.1)
+      cgi (>= 0.3.3)
     erubi (1.13.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
