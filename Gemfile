@@ -12,7 +12,7 @@ gem "sqlite3", "~> 2.9"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 8.0"
 
-gem "resend", "1.6.0"
+gem "resend", "1.7.0"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"

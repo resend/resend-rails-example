@@ -182,7 +182,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.6.3)
       io-console (~> 0.5)
-    resend (1.6.0)
+    resend (1.7.0)
       base64
       httparty (>= 0.22.0)
     sqlite3 (2.9.5-arm64-darwin)
@@ -211,7 +211,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 8.0)
   rails (~> 7.0.0)
-  resend (= 1.6.0)
+  resend (= 1.7.0)
   sqlite3 (~> 2.9)
   tzinfo-data
 
