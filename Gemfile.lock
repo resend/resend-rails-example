@@ -144,7 +144,7 @@ GEM
     psych (5.2.6)
       date
       stringio
-    puma (8.0.2)
+    puma (8.0.3)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.25)
